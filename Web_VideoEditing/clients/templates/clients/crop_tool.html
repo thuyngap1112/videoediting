@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{% static 'clients/css/global.css' %}"/>
+    <link rel="stylesheet" href="{% static 'clients/css/crop_tool.css' %}"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap"/>
+  </head>
+  <body>
+    <div class="croptools">
+      <div class="insert-video">
+        <div class="gr1">
+          <img class="gr1-child" alt="" src="{% static 'clients/images/group-100@2x.png' %}" />
+
+          <img class="vector-icon" alt="" src="{% static 'clients/images/vector@2x.png' %}" />
+
+          <img class="vector-icon1" alt="" src="{% static 'clients/images/vector@2x.png' %}" />
+        </div>
+        <div class="insert-video-child"></div>
+        <div class="home">Home</div>
+      </div>
+      <div class="crop-edit">
+        <div class="crop-edit-child"></div>
+        <div class="extract-size-parent">
+          <div class="extract-size">Extract size</div>
+          <div class="rectangle-parent">
+            <div class="group-child"></div>
+            <div class="div">686</div>
+          </div>
+          <div class="rectangle-group">
+            <div class="group-item"></div>
+            <div class="div1">532</div>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="preview1">Preview</div>
+        </div>
+        <div class="export">
+          <div class="export1">Export</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
